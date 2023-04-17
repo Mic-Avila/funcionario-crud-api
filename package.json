@@ -2,16 +2,32 @@
   "name": "funcionario-crud-api",
   "version": "1.0.0",
   "description": "Aplicação CRUD com API em node para alimentar os 4 principais frameworks do mercado",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon",
+    "lint": "eslint --ext .js -f ./node_modules/eslint-friendly-formatter . --fix",
+    "prepush": "npm run lint",
+    "start": "node server.js"
+
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Mic-Avila/funcionario-crud-api.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "nodejs",
+    "api",
+    "crud",
+    "azure",
+    "express",
+    "github-actions",
+    "serverless",
+    "postgresql",
+    "sql",
+    "javascript"
+
+  ],
+  "author": "Michael Avila",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Mic-Avila/funcionario-crud-api/issues"
@@ -25,6 +41,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
+    "eslint-friendly-formatter": "^4.0.1",
     "express": "^4.18.2",
     "express-promise-router": "^4.1.1",
     "pg": "^8.10.0"

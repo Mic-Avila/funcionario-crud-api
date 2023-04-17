@@ -1,0 +1,23 @@
+{
+  "name": "funcionario-crud-api",
+  "version": "1.0.0",
+  "description": "Aplicação CRUD com API em node para alimentar os 4 principais frameworks do mercado",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mic-Avila/funcionario-crud-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mic-Avila/funcionario-crud-api/issues"
+  },
+  "homepage": "https://github.com/Mic-Avila/funcionario-crud-api#readme",
+  "devDependencies": {
+    "eslint": "^8.38.0"
+  }
+}
